@@ -1,4 +1,4 @@
-package ex01.Actor;
+package ex02.Actor;
 
 public abstract class Actor implements ActorBehavior {
     

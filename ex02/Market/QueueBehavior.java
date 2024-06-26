@@ -1,9 +1,9 @@
-package ex01.Market;
+package ex02.Market;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import ex01.Actor.Actor;
+import ex02.Actor.Actor;
 
 public interface QueueBehavior {
 

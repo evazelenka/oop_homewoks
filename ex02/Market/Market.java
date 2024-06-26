@@ -1,10 +1,10 @@
-package ex01.Market;
+package ex02.Market;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-import ex01.Actor.Actor;
+import ex02.Actor.Actor;
 
 public class Market implements MarketBehavior, QueueBehavior {
 

@@ -1,12 +1,12 @@
-package ex01;
+package ex02;
 
 import java.util.List;
 
-import ex01.Market.Market;
+import ex02.Market.Market;
 
-import ex01.Actor.Actor;
+import ex02.Actor.Actor;
 
-import ex01.Actor.Human;
+import ex02.Actor.Human;
 
 public class MainMarket {
     public static void main(String[] args) {
