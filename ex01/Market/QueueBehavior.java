@@ -16,12 +16,12 @@ public interface QueueBehavior {
     void takeInQueue(Actor actor);
 
     /**
-     * Сделать заказ
+     * Принять заказ
      */
     void takeOrders();
 
     /**
-     * Забрать заказ
+     * Выдать заказ
      */
     void giveOrders();
 

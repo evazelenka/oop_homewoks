@@ -10,12 +10,33 @@ public class Market implements MarketBehavior, QueueBehavior {
 
     private List<Actor> actors = new ArrayList<>();
 
+    /**
+     * Сколько заказов выполнено
+     */
     private int doneOrdersCounter = 0;
+
+    /**
+     * Сколько покупателей было всего
+     */
     private int allOrdersCounter = 0;
+
+    /**
+     * Покупатели, которые ждут заказ
+     */
     private int actorsWaitOrder = 0;
+
+    /**
+     * Покупатели, которые ушли, не получив заказ
+     */
     private int actorsGone = 0;
+
+    /**
+     * Сколько покупателей сейчас в магазине
+     */
     private int actorsInMarket = 0;
+
     private int i = 0;
+
 
     @Override
     public void acceptToMarket(List<Actor> actors) {
@@ -100,7 +121,7 @@ public class Market implements MarketBehavior, QueueBehavior {
     }
 
     @Override
-    public void upDate() { // add argument принимает и отдает заказы
+    public void upDate() {
         System.out.println(LocalDateTime.now());
         System.out.printf(
                 "actors in market: %d, actors wait orders: %d, done orders today: %d / %d, actors gone without order: %d",
@@ -108,6 +129,9 @@ public class Market implements MarketBehavior, QueueBehavior {
         System.out.println();
     }
 
+    /**
+     * Получить список покупателей, которые сейчас в магазине
+     */
     public void getActors(){
         System.out.println(actors);
     }

@@ -7,21 +7,25 @@ import ex01.Actor.Actor;
 public interface MarketBehavior {
 
     /**
-     * Входят в магазин
+     * Входят в магазин несколько покупателей
      * @param actor
      */
     void acceptToMarket(List<Actor> actors);
 
+    /**
+     * Вошел один покупатель
+     * @param actor
+     */
     void acceptToMarket(Actor actor);
 
     /**
-     * Выходят из магазина
+     * Выходит один покупатель
      * @param actors
      */
     void releaseFromMarket();
 
     /**
-     * Обновление состояния в очереди
+     * Обновление состояния в магазине
      */
     void upDate();
 }
