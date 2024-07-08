@@ -12,5 +12,10 @@ public class Teacher extends User {
     public Teacher(int id, String name, String lastName) {
         super(id, name, lastName);
     }
+
+    @Override
+    public String toString() {
+        return "Teacher: " + name + " " + lastName + " Groups: " + groups;
+    }
     
 }
