@@ -18,7 +18,7 @@ public class TeacherView {
         String lastName = scanner.nextLine();
 
         Teacher teacher = teacherController.createTeacher(name, lastName);
-        System.out.println(teacher);
+        System.out.printf("Teacher id = " + teacher.getId() + " " + teacher);
         return teacher;
     }
 
