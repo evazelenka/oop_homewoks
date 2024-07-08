@@ -17,6 +17,7 @@ public class StudentGroupView {
         Scanner scanner = new Scanner (System.in);
 
         while(true){
+            System.out.println();
             System.out.println("1 - create student");
             System.out.println("2 - find student by id");
             System.out.println("3 - change student group for student");
@@ -29,6 +30,7 @@ public class StudentGroupView {
             System.out.println("9 - show info about all teachers");
             System.out.println("--------------------------------");
             System.out.println("10 - exit");
+            System.out.println();
                        
             switch(scanner.nextInt()){
                 case 1 -> studentView.createStudent();

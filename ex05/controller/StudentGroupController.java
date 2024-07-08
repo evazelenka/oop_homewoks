@@ -11,9 +11,9 @@ import ex05.service.TeacherService;
 
 public class StudentGroupController {
 
-    StudentGroupService studentGroupService = new StudentGroupService();
-    TeacherService teacherService = new TeacherService();
-    StudentService studentService = new StudentService();
+    private StudentGroupService studentGroupService = new StudentGroupService();
+    private TeacherService teacherService = new TeacherService();
+    private StudentService studentService = new StudentService();
     
     public void getStudentGroup(int groupId) throws Exception{
 
