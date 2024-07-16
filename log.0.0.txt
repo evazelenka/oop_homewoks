@@ -1,0 +1,6 @@
+июл. 16, 2024 2:39:43 PM attestation.Decorator divide
+INFO: divide is done
+июл. 16, 2024 2:42:50 PM attestation.Decorator divide
+INFO: divide is done, result = 
+июл. 16, 2024 2:43:40 PM attestation.Decorator divide
+INFO: divide is done, result = 1.0 + i
