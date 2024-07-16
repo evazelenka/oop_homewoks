@@ -13,12 +13,12 @@ public class View {
     public static Map<String, Calculable> operations = CalculatorController.getOperations();
     
     private static ComplexNumber calculate(SimpleCalculator calculator) {
-        int r = Integer.parseInt(prompt("Enter real of first complex number: "));
-        int i = Integer.parseInt(prompt("Enter image of first complex number: "));
+        double r = Double.parseDouble(prompt("Enter real of first complex number: "));
+        double i = Double.parseDouble(prompt("Enter image of first complex number: "));
         System.out.println(" ");
         ComplexNumber cN1 = new ComplexNumber(r, i);
-        int r2 = Integer.parseInt(prompt("Enter real of second complex number: "));
-        int i2 = Integer.parseInt(prompt("Enter image of second complex number: "));
+        double r2 = Double.parseDouble(prompt("Enter real of second complex number: "));
+        double i2 = Double.parseDouble(prompt("Enter image of second complex number: "));
         System.out.println(" ");
         ComplexNumber cN2 = new ComplexNumber(r2, i2);
         System.out.printf("z1 = %s, z2 = %s", cN1, cN2);

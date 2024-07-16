@@ -4,3 +4,9 @@ INFO: divide is done
 INFO: divide is done, result = 
 июл. 16, 2024 2:43:40 PM attestation.Decorator divide
 INFO: divide is done, result = 1.0 + i
+июл. 16, 2024 3:01:26 PM attestation.Decorator divide
+INFO: divide is done, result = -0.21348314606741572 + 0.25842696629213485i
+июл. 16, 2024 3:03:59 PM attestation.Decorator sum
+INFO: sum is done, result = 3.0 + 1.5i
+июл. 16, 2024 3:04:45 PM attestation.Decorator divide
+INFO: divide is done, result = -2.0
